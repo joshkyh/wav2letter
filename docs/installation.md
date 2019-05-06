@@ -107,6 +107,7 @@ To build wav2letter++ with Docker:
   sudo docker run --runtime=nvidia --rm -itd --ipc=host --name w2l wav2letter/wav2letter:cuda-latest
   # or with CPU backend
   sudo docker run --rm -itd --ipc=host --name w2l wav2letter/wav2letter:cpu-latest
+  # After running one of the above two images, exec
   sudo docker exec -it w2l bash
   ```
 
